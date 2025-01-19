@@ -1,0 +1,11 @@
+
+/ {
+    gpio0: gpio0 {
+        compatible = "gpio-pins";
+		gpios = <&pwr_gpio 23 GPIO_ACTIVE_HIGH>;
+    };
+};
+
+&pwr_gpio {
+    status = "okay";
+};

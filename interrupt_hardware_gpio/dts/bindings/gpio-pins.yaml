@@ -1,0 +1,10 @@
+description: GPIO pin for interrupt
+
+compatible: "gpio-pins"
+
+properties:
+  gpios:
+    type: phandle-array
+    required: true
+    description: |
+      The GPIO pin for interrupt
